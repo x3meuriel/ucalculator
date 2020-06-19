@@ -1,0 +1,92 @@
+*,*:visited{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.frontHeading{
+    color: rgb(120, 255, 187);
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px green;
+    padding: 20px;
+    margin-bottom: .5rem;
+}
+
+.input-div{
+    /* background: lightseagreen; */
+    text-align: center;
+}
+
+#section__btn{
+    width: 33%;
+    padding: 9px;
+}
+
+
+.dd{
+    width: 40%;
+    text-align: center;
+} 
+
+#input{
+    height: 100px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 20px;
+    display: block;
+    margin-top: 2px;
+}
+
+.btn, #equal, #dot, #clear{
+    font-size: 3rem;
+    padding: 5px;
+    width: 100px;
+    height: 70px; 
+    text-align: center;
+    border: 1px solid red;
+    background-color: pink;
+    float: left;
+    border-radius: 5px;
+}
+
+.btn-div{
+    /* width: 50%; */
+    align-content: center;
+    text-align: center;
+    padding: 10px; 
+}
+
+
+@media  screen  and (max-width: 600px){
+    
+    #section__btn{
+        width: 100%;
+    }
+
+    .btn, #equal, #dot{
+      font-size: 50px;
+      width: 60px; 
+    
+    }
+
+    #input{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .dd{
+        width: 100%;
+    } 
+
+
+
+
+}
